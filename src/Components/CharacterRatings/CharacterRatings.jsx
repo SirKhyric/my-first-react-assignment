@@ -1,6 +1,7 @@
 import './CharacterRatings.css';
 import CharacterRatingsTableRow from './_components/CharacterRatingsTableRow';
 
+
 export function CharacterRatings({ characters }) {
   const sortedCharacters = [...characters].sort((a, b) => b.votes - a.votes);
   const topCharacters = sortedCharacters.slice(0, 5);
@@ -19,9 +20,8 @@ export function CharacterRatings({ characters }) {
         <tbody>
           {topCharacters.map((character, index) => (
             <CharacterRatingsTableRow 
-              key={character.name} 
-              character={character} 
               index={index} 
+              character={character} 
             />
           ))}
         </tbody>

@@ -1,6 +1,11 @@
 body {
-  padding: 0px;
+  /*padding: 0px;
   margin: 0px;
   min-height: 100%;
+  background-color: tomato;*/
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  align-items: center;
   background-color: tomato;
 }
