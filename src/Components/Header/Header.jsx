@@ -8,7 +8,6 @@ export function Header() {
         <li>about us</li>
         <li>info</li>
         <li>support us</li>
-        <li>something new</li>
       </nav>
     </header>
   );
