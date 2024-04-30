@@ -1,13 +1,4 @@
-type Character = {
-  name: string;
-  skillset: string[];
-  votes: number;
-  imageUrl: string;
-  background: string;
-  nickName: null | string;
-};
-
-const data: Character[] = [
+const data = [
   {
     name: "Alex Louis Armstrong",
     nickName: "Major Armstrong",

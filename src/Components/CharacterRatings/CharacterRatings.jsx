@@ -3,8 +3,7 @@ import CharacterRatingsTableRow from './_components/CharacterRatingsTableRow';
 
 
 export function CharacterRatings({ characters }) {
-  const sortedCharacters = [...characters].sort((a, b) => b.votes - a.votes);
-  const topCharacters = sortedCharacters.slice(0, 5);
+  const topCharacters = [...characters].sort((a, b) => b.votes - a.votes).slice(0, 5);
 
   return (
     <section id="character-ratings">

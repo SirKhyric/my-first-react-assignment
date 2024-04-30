@@ -1,4 +1,4 @@
-const CharacterCardsItems = ({ character }) => {
+const CharacterCardsItem = ({ character }) => {
   return (
     <div className="card">
       <div className="card-titles">
@@ -11,4 +11,4 @@ const CharacterCardsItems = ({ character }) => {
   )
 }
 
-export default CharacterCardsItems;
+export default CharacterCardsItem;
